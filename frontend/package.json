@@ -1,0 +1,67 @@
+{
+  "name": "react-sandbox-2022",
+  "version": "1.0.0",
+  "description": "React sandbox 2022",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --config ./webpack.dev.js --open",
+    "build": "webpack --config ./webpack.prod.js",
+    "prepare": "cd .. && husky install frontend/.husky",
+    "pre-commit": "lint-staged"
+  },
+  "keywords": [],
+  "author": "CBR",
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/preset-env": "^7.19.0",
+    "@types/lodash": "^4.14.184",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "eslint": "8.22.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "node-sass": "^7.0.3",
+    "normalize.css": "^8.0.1",
+    "postcss-scss": "^4.0.4",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "stylelint": "^14.11.0",
+    "stylelint-config-css-modules": "^4.1.0",
+    "stylelint-config-standard": "^28.0.0",
+    "stylelint-webpack-plugin": "^3.3.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "eslint . --fix"
+    ],
+    "src/**/*.scss": [
+      "stylelint --fix"
+    ]
+  }
+}

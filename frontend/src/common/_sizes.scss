@@ -1,0 +1,24 @@
+$input-width: 250px;
+
+$vw-sm: 350px;
+$vw-md: 640px;
+$vw-lg: 960px;
+$vw-xl: 1280px;
+
+$border-radius: 4px;
+$border-radius-sm: 2px;
+$border-radius-lg: 8px;
+$border-radius-xl: 12px;
+
+$icon-size: 24px;
+$icon-size-sm: 20px;
+$icon-size-xs: 18px;
+$icon-size-xxs: 16px;
+
+$spacer: 16px;
+$spacer-xxs: $spacer * 0.25; // 4px
+$spacer-xs: $spacer * 0.5; // 8px
+$spacer-sm: $spacer * 0.75; // 12px
+$spacer-lg: $spacer * 1.25; // 20px
+$spacer-xl: $spacer * 1.5; // 24px
+$spacer-xxl: $spacer * 2; // 32px

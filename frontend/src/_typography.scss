@@ -1,0 +1,21 @@
+// Headings
+
+/* Using a class as a mixin (like here) is very specific to LESS, and therefore isn't such a good practice.
+Those declarations should remain exceptional
+h1 {
+  .t2-h1;
+
+  margin: @spacer-xxl 0 @spacer 0;
+}
+
+h2 {
+  .t2-h2;
+}
+
+h3 {
+  .t2-h3;
+}
+
+h4 {
+  .t2-h4;
+} */

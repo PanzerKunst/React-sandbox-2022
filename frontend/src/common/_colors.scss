@@ -1,0 +1,76 @@
+// Brand colors - please use functional colors instead!
+$black: #000;
+$text-grey: #3a3b3f;
+$dark-grey: #6c6d73;
+
+$grey: #dcdcde;
+$light-grey: #f1f1f1;
+$lighter-grey: #f5f5f5;
+$white: #fff;
+
+$green: #19af62;
+$ui-blue: #1067d0;
+$blue: #002844;
+$orange: #db7917;
+$red: #b50d2b;
+
+// Developer-named brand colors
+$dark-red: #980a24;
+$light-blue: #e7effa;
+$light-red: #f7e6e9;
+$light-orange: #fbf1e7;
+$light-green: #edf9f3;
+
+// Functional colors
+$t2-color-alert: $red;
+$t2-color-alert-hover: $dark-red;
+$t2-color-alert-offset: $light-red;
+
+$t2-color-com: $orange;
+$t2-color-com-offset: $light-orange;
+
+$t2-color-positive: $green;
+$t2-color-positive-offset: $light-green;
+
+$t2-color-primary-btn: $ui-blue;
+$t2-color-primary-btn-hover: #0956b3;
+$t2-color-primary-btn-active: $blue;
+
+$t2-color-highlight: $ui-blue;
+$t2-color-link: $ui-blue;
+$t2-color-range: $light-blue;
+
+$t2-color-body-text: $text-grey;
+$t2-color-sub-text: $dark-grey;
+$t2-color-heading: $black;
+$t2-color-tab-option: $dark-grey;
+$t2-color-negative-text: $white;
+$t2-color-text-hover: $black;
+$t2-color-placeholder-text: $dark-grey;
+$t2-color-placeholder-text-when-focused: #b0b2b9;
+
+$t2-color-app-bg: $white;
+$t2-color-offset-bg: $lighter-grey;
+$t2-color-tooltip-bg: $text-grey;
+
+$t2-color-btn-disabled: $grey;
+
+$t2-color-input: $white;
+$t2-color-input-disabled: $light-grey; // + opacity 50% in code on whole element
+$t2-color-input-search: $lighter-grey;
+
+$t2-color-ghost-active: $grey;
+$t2-color-ghost-hover: $lighter-grey;
+
+$t2-color-border: $grey;
+$t2-color-border-hover: $dark-grey;
+$t2-color-border-active: $black;
+
+$t2-color-gradient-offset-start: $grey;
+$t2-color-gradient-offset-end: $lighter-grey;
+$t2-color-gradient-alert-start: $red;
+$t2-color-gradient-alert-end: #e19daa;
+$t2-color-gradient-positive-start: $green;
+$t2-color-gradient-positive-end: #a2debf;
+
+$t2-opacity-disabled: 0.5;
