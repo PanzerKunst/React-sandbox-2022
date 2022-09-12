@@ -1,0 +1,25 @@
+{
+  "name": "react-sandbox-2022-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/backend/src/index.js",
+  "scripts": {
+    "build": "npx tsc --build --clean && npx tsc",
+    "start": "npm run build && node build/backend/src/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.7.16",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "postgres": "^3.2.4"
+  }
+}

@@ -1,50 +1,10 @@
-@import "../../common/colors";
 @import "../../common/mixins";
 @import "../../common/sizes";
 
-main.home {
-  ul {
-    @include unstyled-list();
-  }
+.home > ul {
+  @include unstyled-list();
 
-  > ul {
-    display: grid;
-    column-gap: $spacer-xl;
-    row-gap: $spacer-xxl;
-
-    @media all and (min-width: $vw-md) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    @media all and (min-width: $vw-lg) {
-      grid-template-columns: repeat(3, 1fr);
-    }
-
-    header {
-      font-size: 14px;
-      color: $t2-color-sub-text;
-      padding-bottom: 6px;
-      border-bottom: 1px solid $t2-color-border;
-    }
-  }
-
-  ul.actions {
-    margin-top: $spacer-xs;
-
-    .t2-btn {
-      text-align: left;
-
-      // Side paddings should be smaller than regular t2-sm buttons
-      padding-left: $spacer-xs + 1;
-      padding-right: $spacer-xs + 1;
-
-      &:not([disabled]) {
-        &:hover,
-        &:focus {
-          padding-left: $spacer-xs;
-          padding-right: $spacer-xs;
-        }
-      }
-    }
+  span:last-child {
+    margin-left: $spacer;
   }
 }

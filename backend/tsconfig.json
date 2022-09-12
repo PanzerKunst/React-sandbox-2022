@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["src","../common"],
+    "outDir": "build",
+    "module": "commonjs",
+    "target": "es2019",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true, // To allow commonjs imports
+    "esModuleInterop": true, // from doc: Allow default imports from modules with no default export. This does not affect code emit, just typechecking.
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true,
+  },
+}

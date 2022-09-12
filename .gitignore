@@ -10,9 +10,12 @@
 ### MacOS ###
 .DS_Store
 
+### /backend ###
+/backend/build/
+
 ### /frontend ###
-frontend/node_modules
-build
+/frontend/build/
 
 ### Misc ###
 *.log
+node_modules
