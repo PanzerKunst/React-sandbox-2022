@@ -24,5 +24,6 @@ export async function insertCrag({ name, location }: Crag) {
 export async function selectAllCrags() {
   return sql`
     select id, name, location
-    from crags`;
+    from crags
+    order by location, name`;
 }

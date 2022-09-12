@@ -20,8 +20,8 @@ function Home(): ReactElement {
       <ul>
         {crags.map((crag) => (
           <li key={crag.id as number}>
-            <span>{crag.name}</span>
             <span>{crag.location}</span>
+            <span>{crag.name}</span>
           </li>
         ))}
       </ul>
